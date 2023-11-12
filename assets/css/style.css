@@ -1,0 +1,236 @@
+@import url(../css/reset.css);
+
+body{
+    background-color: black;
+}
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%),
+    url(../images/banner.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 605px;
+
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content{
+    width: 510px;
+    height: 393px;
+
+    text-align: center;
+
+    margin: auto;
+
+    padding-top: 56px;
+    padding-bottom: 76px;
+}
+
+.banner .logo {
+    background-color: #00000033;
+    width: 268px;
+    height: 268px;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .banner .logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.banner h1{
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    padding-bottom: 16px;
+}
+
+.banner p{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.banner button{
+    text-transform: uppercase;
+
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19x;
+    letter-spacing: 0.21em;
+    text-align: center;
+
+    background: #31A8DD;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    width: 326px;
+    height: 57px;
+
+    border: 2px solid #3BA1CD;
+}
+
+#course-content{
+    width: 792px;
+    height: 533px;
+
+    margin: auto;
+}
+
+#course-content h2{
+    padding-top: 118px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: #33A8DB;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#course-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+
+    padding-bottom: 24px;
+}
+
+.modules-list{
+    text-align: center;
+}
+
+.modules-list .module{
+    color: white;
+ 
+    width: 535px;
+    height: 51px;
+
+    background: linear-gradient(0deg, #252525, #252525), linear-gradient(0deg, #33A8DB, #33A8DB);
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+
+
+    margin: auto;
+    margin-bottom: 24px;
+    padding-top: 16px;
+}
+
+.modules-list .module span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 363px;
+
+    border: 1px solid #33A8DB;
+}
+
+#transform-world p{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: lowercase;
+
+    width: 450px;
+    height: 141px;
+
+    padding-left: 198px;
+    padding-top: 111px;
+
+    text-shadow: 3px 2px 0px #33A8DB;
+
+}
+
+#professional-challenges{
+    text-align: center;
+
+    padding-top: 76px;
+    padding-bottom: 91px;
+}
+
+#professional-challenges h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: #33A8DB;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    width: 746px;
+    height: 76px;
+
+    margin: auto;
+}
+
+#professional-challenges p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    width: 792px;
+    height: 76px;
+
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+
+    border-top: 1px solid #33A8DB
+}
+
+footer img{
+    padding-top: 59px;
+}
+
+footer p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    padding-bottom: 38px;
+}
+
+footer a{
+    font-weight: 700;
+    text-decoration: none;
+}
